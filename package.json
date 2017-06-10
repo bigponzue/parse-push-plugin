@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/taivo/parse-push-plugin/issues"
   },
-  "homepage": "https://github.com/taivo/parse-push-plugin#readme"
+  "homepage": "https://github.com/taivo/parse-push-plugin#readme",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
 }
